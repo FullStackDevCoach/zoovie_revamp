@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SFDisplay-Regular.otf">
+            <string>SanFranciscoDisplay-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="SettingsCell" rowHeight="50" id="KGk-i7-Jjw" customClass="SettingsCell" customModule="ZOOVIE" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qd6-Y9-6F0">
+                        <rect key="frame" x="16" y="12.5" width="25" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="25" id="3j1-hs-Zw2"/>
+                            <constraint firstAttribute="height" constant="25" id="Qig-Ym-vWS"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nwo-ii-Uhs">
+                        <rect key="frame" x="49" y="16" width="37" height="18"/>
+                        <fontDescription key="fontDescription" name="SanFranciscoDisplay-Regular" family="San Francisco Display" pointSize="15"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lhz-6s-aK5">
+                        <rect key="frame" x="284" y="15" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="lc1-Ts-4nC"/>
+                            <constraint firstAttribute="width" constant="20" id="mB6-BV-XLW"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="lhz-6s-aK5" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="1mL-M5-gem"/>
+                    <constraint firstItem="Nwo-ii-Uhs" firstAttribute="leading" secondItem="qd6-Y9-6F0" secondAttribute="trailing" constant="8" id="Ceq-JC-NZg"/>
+                    <constraint firstItem="Nwo-ii-Uhs" firstAttribute="centerY" secondItem="qd6-Y9-6F0" secondAttribute="centerY" id="MdK-5d-lEU"/>
+                    <constraint firstItem="qd6-Y9-6F0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="OoJ-Ac-Ifx"/>
+                    <constraint firstAttribute="trailing" secondItem="lhz-6s-aK5" secondAttribute="trailing" constant="16" id="PM2-tI-aKQ"/>
+                    <constraint firstItem="qd6-Y9-6F0" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="bRB-e8-Ob2"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="iconSettingOptions" destination="qd6-Y9-6F0" id="Cch-0O-vUI"/>
+                <outlet property="lblSettingTitle" destination="Nwo-ii-Uhs" id="h3N-28-0tM"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="86.383928571428569"/>
+        </tableViewCell>
+    </objects>
+</document>

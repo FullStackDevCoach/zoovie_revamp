@@ -1,0 +1,6 @@
+framework module Pods_ZOOVIE {
+  umbrella header "Pods-ZOOVIE-umbrella.h"
+
+  export *
+  module * { export * }
+}

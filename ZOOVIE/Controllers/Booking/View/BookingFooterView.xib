@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="BookingFooterView" customModule="ZOOVIE" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="82"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vtg-tb-kqD">
+                    <rect key="frame" x="16" y="10" width="343" height="62"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="62" id="yTf-XK-6SL"/>
+                    </constraints>
+                    <state key="normal" image="ORDERNOW-btn">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YLu-zK-6Q0">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="0.5"/>
+                    <color key="backgroundColor" red="0.1215686277" green="0.1294117719" blue="0.1411764771" alpha="0.10000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.69999999999999996" id="cQP-fT-C0h"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="YLu-zK-6Q0" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="0Ep-1y-KVQ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Vtg-tb-kqD" secondAttribute="bottom" constant="10" id="2Zi-LR-iMl"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Vtg-tb-kqD" secondAttribute="trailing" constant="16" id="2jb-cJ-Scu"/>
+                <constraint firstItem="YLu-zK-6Q0" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="c0c-Ax-rcZ"/>
+                <constraint firstItem="Vtg-tb-kqD" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="cKu-dT-9LE"/>
+                <constraint firstItem="Vtg-tb-kqD" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="10" id="n76-9E-cmg"/>
+                <constraint firstAttribute="trailing" secondItem="YLu-zK-6Q0" secondAttribute="trailing" id="qOd-5m-W9d"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="orderButton" destination="Vtg-tb-kqD" id="D2a-Tm-CgH"/>
+            </connections>
+            <point key="canvasLocation" x="138.40000000000001" y="-97.151424287856074"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ORDERNOW-btn" width="365" height="64"/>
+    </resources>
+</document>

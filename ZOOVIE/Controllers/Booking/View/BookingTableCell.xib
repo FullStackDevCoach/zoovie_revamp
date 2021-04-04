@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MaisonNeue-Bold.ttf">
+            <string>MaisonNeue-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BookingTableCell" rowHeight="109" id="KGk-i7-Jjw" customClass="BookingTableCell" customModule="ZOOVIE" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="481" height="82"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="481" height="82"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l55-uY-ADA">
+                        <rect key="frame" x="16" y="24.5" width="199" height="33"/>
+                        <string key="text">VIP Section + Bottle
+Service</string>
+                        <fontDescription key="fontDescription" name="MaisonNeue-Bold" family="Maison Neue" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$120.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1YZ-23-teK">
+                        <rect key="frame" x="215" y="33" width="51" height="16.5"/>
+                        <fontDescription key="fontDescription" name="MaisonNeue-Bold" family="Maison Neue" pointSize="14"/>
+                        <color key="textColor" red="0.85098039219999999" green="0.1764705882" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8WD-eh-Lsv">
+                        <rect key="frame" x="0.0" y="82" width="481" height="0.5"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.10000000000000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.69999999999999996" id="164-a3-Ar2"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FVn-mG-TF1" customClass="AnimatableView" customModule="IBAnimatable">
+                        <rect key="frame" x="349" y="20" width="116" height="42"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ctc-Pw-jTj">
+                                <rect key="frame" x="0.0" y="0.0" width="116" height="42"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OSN-b2-qyb" customClass="AnimatableButton" customModule="IBAnimatable">
+                                        <rect key="frame" x="0.0" y="0.0" width="38.5" height="42"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="42" id="WOa-4L-pQx"/>
+                                        </constraints>
+                                        <state key="normal" image="minus-ic"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="0.5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="subtractAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="tYo-Nk-IhQ"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2WF-HW-zLD" customClass="AnimatableLabel" customModule="IBAnimatable">
+                                        <rect key="frame" x="38.5" y="0.0" width="39" height="42"/>
+                                        <fontDescription key="fontDescription" name="MaisonNeue-Bold" family="Maison Neue" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="0.5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WI3-XZ-zcv" customClass="AnimatableButton" customModule="IBAnimatable">
+                                        <rect key="frame" x="77.5" y="0.0" width="38.5" height="42"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="42" id="zkr-g0-fZN"/>
+                                        </constraints>
+                                        <state key="normal" image="plus-ic"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="0.5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="addAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="ycJ-EX-agu"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="116" id="yug-wc-3Q1"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ctc-Pw-jTj" firstAttribute="top" secondItem="FVn-mG-TF1" secondAttribute="top" id="6W6-0g-931"/>
+                            <constraint firstAttribute="trailing" secondItem="ctc-Pw-jTj" secondAttribute="trailing" id="6yd-3h-c80"/>
+                            <constraint firstAttribute="bottom" secondItem="ctc-Pw-jTj" secondAttribute="bottom" id="BNl-rC-xBs"/>
+                            <constraint firstItem="ctc-Pw-jTj" firstAttribute="leading" secondItem="FVn-mG-TF1" secondAttribute="leading" id="xKH-Fk-pUY"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="0.69999999999999996"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sold Out" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t6I-NJ-zgO">
+                        <rect key="frame" x="409.5" y="33" width="55.5" height="16.5"/>
+                        <fontDescription key="fontDescription" name="MaisonNeue-Bold" family="Maison Neue" pointSize="14"/>
+                        <color key="textColor" red="0.85098039219999999" green="0.1764705882" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="8WD-eh-Lsv" secondAttribute="bottom" id="7Rf-0P-43E"/>
+                    <constraint firstItem="8WD-eh-Lsv" firstAttribute="top" secondItem="FVn-mG-TF1" secondAttribute="bottom" constant="20" id="Bl0-IQ-V0v"/>
+                    <constraint firstItem="FVn-mG-TF1" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="SCZ-hu-0Ln"/>
+                    <constraint firstItem="l55-uY-ADA" firstAttribute="centerY" secondItem="FVn-mG-TF1" secondAttribute="centerY" id="Tas-Lc-NL1"/>
+                    <constraint firstItem="1YZ-23-teK" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="VVZ-Yt-lbh"/>
+                    <constraint firstItem="t6I-NJ-zgO" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="bkN-F3-CuN"/>
+                    <constraint firstItem="l55-uY-ADA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="c1G-Vi-BP9"/>
+                    <constraint firstAttribute="trailing" secondItem="FVn-mG-TF1" secondAttribute="trailing" constant="16" id="gob-Tf-GRt"/>
+                    <constraint firstItem="1YZ-23-teK" firstAttribute="leading" secondItem="l55-uY-ADA" secondAttribute="trailing" id="iB6-fj-agq"/>
+                    <constraint firstAttribute="trailing" secondItem="t6I-NJ-zgO" secondAttribute="trailing" constant="16" id="kEU-CM-oYU"/>
+                    <constraint firstItem="8WD-eh-Lsv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="sBm-We-6ga"/>
+                    <constraint firstAttribute="trailing" secondItem="8WD-eh-Lsv" secondAttribute="trailing" id="uhG-Ji-e3o"/>
+                    <constraint firstItem="1YZ-23-teK" firstAttribute="centerY" secondItem="FVn-mG-TF1" secondAttribute="centerY" id="vDY-Bi-wqc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="animatableView" destination="FVn-mG-TF1" id="m85-GK-0jQ"/>
+                <outlet property="itemNameLabel" destination="l55-uY-ADA" id="hAZ-mb-aCW"/>
+                <outlet property="itemPriseLabel" destination="1YZ-23-teK" id="bwQ-vF-2bB"/>
+                <outlet property="lineView" destination="8WD-eh-Lsv" id="TwY-SJ-Pc9"/>
+                <outlet property="soldLbl" destination="t6I-NJ-zgO" id="2Kb-Y1-Zwo"/>
+                <outlet property="valueLabel" destination="2WF-HW-zLD" id="PXD-fK-osx"/>
+            </connections>
+            <point key="canvasLocation" x="-367" y="69"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="minus-ic" width="13" height="2"/>
+        <image name="plus-ic" width="13" height="13"/>
+    </resources>
+</document>

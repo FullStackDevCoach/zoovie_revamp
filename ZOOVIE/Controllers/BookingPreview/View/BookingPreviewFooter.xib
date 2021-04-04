@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MaisonNeue-Bold.ttf">
+            <string>MaisonNeue-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="BookingPreviewFooter" customModule="ZOOVIE" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="220"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item Total" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R69-Na-VQ1">
+                    <rect key="frame" x="16" y="30" width="61" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="15" id="Wey-KJ-rK8"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="MaisonNeue-Bold" family="Maison Neue" pointSize="14"/>
+                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ycZ-a7-fGo">
+                    <rect key="frame" x="359" y="30" width="0.0" height="0.0"/>
+                    <fontDescription key="fontDescription" name="MaisonNeue-Bold" family="Maison Neue" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Taxes &amp; Charges" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="liu-uQ-w5k">
+                    <rect key="frame" x="16" y="57" width="90" height="13"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="13" id="EmV-sF-L7b"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="MaisonNeue-Bold" family="Maison Neue" pointSize="12"/>
+                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ffZ-Mf-7GC">
+                    <rect key="frame" x="359" y="57" width="0.0" height="0.0"/>
+                    <fontDescription key="fontDescription" name="MaisonNeue-Bold" family="Maison Neue" pointSize="12"/>
+                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Grand Total" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7xS-8R-A6n">
+                    <rect key="frame" x="16" y="82" width="83" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="Man-Hu-QdM"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="MaisonNeue-Bold" family="Maison Neue" pointSize="16"/>
+                    <color key="textColor" red="0.1215686277" green="0.1294117719" blue="0.1411764771" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SLG-N3-iBw">
+                    <rect key="frame" x="359" y="82" width="0.0" height="0.0"/>
+                    <fontDescription key="fontDescription" name="MaisonNeue-Bold" family="Maison Neue" pointSize="16"/>
+                    <color key="textColor" red="0.85490196080000003" green="0.1764705882" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yFg-Zg-igH">
+                    <rect key="frame" x="33" y="110" width="309" height="45"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="s6A-dK-ewy"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="MaisonNeue-Bold" family="Maison Neue" pointSize="20"/>
+                    <state key="normal" title="Pay">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qkX-xV-JME">
+                    <rect key="frame" x="33" y="163" width="309" height="45"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="JxX-K8-TpA"/>
+                    </constraints>
+                    <state key="normal" image="applePay">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number of Guest" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bLP-AL-g01">
+                    <rect key="frame" x="15" y="5" width="108" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="15" id="Avt-vL-b1t"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="MaisonNeue-Bold" family="Maison Neue" pointSize="14"/>
+                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QOU-Nc-tWq">
+                    <rect key="frame" x="359" y="12.5" width="0.0" height="0.0"/>
+                    <fontDescription key="fontDescription" name="MaisonNeue-Bold" family="Maison Neue" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="qkX-xV-JME" secondAttribute="bottom" constant="12" id="1C1-A2-2BA"/>
+                <constraint firstItem="qkX-xV-JME" firstAttribute="width" secondItem="yFg-Zg-igH" secondAttribute="width" id="1iM-Yp-dwV"/>
+                <constraint firstItem="7xS-8R-A6n" firstAttribute="leading" secondItem="liu-uQ-w5k" secondAttribute="leading" id="2rH-M6-ju5"/>
+                <constraint firstItem="7xS-8R-A6n" firstAttribute="top" secondItem="liu-uQ-w5k" secondAttribute="bottom" constant="12" id="6hN-ib-ThL"/>
+                <constraint firstItem="7xS-8R-A6n" firstAttribute="top" secondItem="SLG-N3-iBw" secondAttribute="top" id="8M7-6C-Nf3"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="ycZ-a7-fGo" secondAttribute="trailing" constant="16" id="Can-H0-Ibx"/>
+                <constraint firstItem="liu-uQ-w5k" firstAttribute="top" secondItem="R69-Na-VQ1" secondAttribute="bottom" constant="12" id="DGW-du-DN1"/>
+                <constraint firstAttribute="trailing" secondItem="QOU-Nc-tWq" secondAttribute="trailing" constant="16" id="GuX-z8-1JW"/>
+                <constraint firstItem="bLP-AL-g01" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="MXV-TP-QIe"/>
+                <constraint firstItem="qkX-xV-JME" firstAttribute="centerX" secondItem="yFg-Zg-igH" secondAttribute="centerX" id="PFt-Ao-Sga"/>
+                <constraint firstItem="bLP-AL-g01" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="5" id="PpT-0p-WyG"/>
+                <constraint firstItem="SLG-N3-iBw" firstAttribute="trailing" secondItem="ffZ-Mf-7GC" secondAttribute="trailing" id="ZnN-i0-UJ4"/>
+                <constraint firstItem="yFg-Zg-igH" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="33" id="ZqP-KC-NQ1"/>
+                <constraint firstItem="liu-uQ-w5k" firstAttribute="top" secondItem="ffZ-Mf-7GC" secondAttribute="top" id="aXF-eG-HiZ"/>
+                <constraint firstItem="R69-Na-VQ1" firstAttribute="top" secondItem="ycZ-a7-fGo" secondAttribute="top" id="cb0-72-b0S"/>
+                <constraint firstItem="liu-uQ-w5k" firstAttribute="leading" secondItem="R69-Na-VQ1" secondAttribute="leading" id="iDr-j9-ISh"/>
+                <constraint firstItem="R69-Na-VQ1" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="lc5-IB-OiB"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="yFg-Zg-igH" secondAttribute="trailing" constant="33" id="nK3-z9-8CC"/>
+                <constraint firstItem="ffZ-Mf-7GC" firstAttribute="trailing" secondItem="ycZ-a7-fGo" secondAttribute="trailing" id="nic-Aq-5ry"/>
+                <constraint firstItem="R69-Na-VQ1" firstAttribute="top" secondItem="bLP-AL-g01" secondAttribute="bottom" constant="10" id="oZn-fs-hLp"/>
+                <constraint firstItem="QOU-Nc-tWq" firstAttribute="centerY" secondItem="bLP-AL-g01" secondAttribute="centerY" id="qNj-ZP-XSR"/>
+                <constraint firstItem="qkX-xV-JME" firstAttribute="top" secondItem="yFg-Zg-igH" secondAttribute="bottom" constant="8" id="yor-mQ-dXP"/>
+                <constraint firstItem="yFg-Zg-igH" firstAttribute="top" secondItem="7xS-8R-A6n" secondAttribute="bottom" constant="10" id="zI6-6n-55K"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="btnApplePay" destination="qkX-xV-JME" id="Alw-YE-qbK"/>
+                <outlet property="grandTotalLabel" destination="SLG-N3-iBw" id="G2t-rj-CDM"/>
+                <outlet property="guestLbl" destination="bLP-AL-g01" id="Kt5-aj-BVh"/>
+                <outlet property="itemTotalLabel" destination="ycZ-a7-fGo" id="xn5-xX-muR"/>
+                <outlet property="numberOfGuestLbl" destination="QOU-Nc-tWq" id="w3X-3W-jxR"/>
+                <outlet property="payButton" destination="yFg-Zg-igH" id="gJp-vL-1iV"/>
+                <outlet property="taxesAndChargesLabel" destination="ffZ-Mf-7GC" id="yQy-dK-D1I"/>
+            </connections>
+            <point key="canvasLocation" x="-410.39999999999998" y="-197.00149925037482"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="applePay" width="50" height="23.5"/>
+    </resources>
+</document>

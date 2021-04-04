@@ -1,0 +1,78 @@
+PODS:
+  - Alamofire (5.2.0)
+  - CarbonKit (2.3.1)
+  - FacebookCore (0.9.0):
+    - FBSDKCoreKit (~> 5.0)
+  - FacebookLogin (0.9.0):
+    - FacebookCore (~> 0.9.0)
+    - FBSDKCoreKit (~> 5.0)
+    - FBSDKLoginKit (~> 5.0)
+  - FBSDKCoreKit (5.15.1):
+    - FBSDKCoreKit/Basics (= 5.15.1)
+    - FBSDKCoreKit/Core (= 5.15.1)
+  - FBSDKCoreKit/Basics (5.15.1)
+  - FBSDKCoreKit/Core (5.15.1):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (5.15.1):
+    - FBSDKLoginKit/Login (= 5.15.1)
+  - FBSDKLoginKit/Login (5.15.1):
+    - FBSDKCoreKit (~> 5.0)
+  - FlagPhoneNumber (0.8.0):
+    - FlagPhoneNumber/libPhoneNumberiOS (= 0.8.0)
+  - FlagPhoneNumber/libPhoneNumberiOS (0.8.0)
+  - IQKeyboardManagerSwift (6.5.5)
+  - Kingfisher (5.14.0):
+    - Kingfisher/Core (= 5.14.0)
+  - Kingfisher/Core (5.14.0)
+  - MBProgressHUD (1.0.0)
+  - OTPFieldView (1.0.1)
+  - ReachabilitySwift (4.1.0)
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire (= 5.2.0)
+  - CarbonKit
+  - FacebookCore
+  - FacebookLogin
+  - FlagPhoneNumber
+  - IQKeyboardManagerSwift
+  - Kingfisher (= 5.14)
+  - MBProgressHUD (= 1.0.0)
+  - OTPFieldView
+  - ReachabilitySwift (= 4.1.0)
+  - SwiftyJSON (= 4.0.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CarbonKit
+    - FacebookCore
+    - FacebookLogin
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FlagPhoneNumber
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - MBProgressHUD
+    - OTPFieldView
+    - ReachabilitySwift
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: c1ca147559e730bfb2182c8c7aafbdd90a867987
+  CarbonKit: b60e24dbdb47179990d5e074efa87ab819c8de98
+  FacebookCore: ba86524b66cfa86d0f8e65d08faa8504a9f732dd
+  FacebookLogin: 6cee9fd6e1fe976fe8f7eec199e27b28b14f5d63
+  FBSDKCoreKit: 1d5acf7c9d7a2f92bb1a242dc60cae5b7adb91df
+  FBSDKLoginKit: f1ea8026a58b52d30c9f2e6a58ca7d813619fb83
+  FlagPhoneNumber: 3712455b95f66cb0f2016fef7d9e34cddf8c7f9a
+  IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
+  Kingfisher: 7b64389a43139c903ec434788344c288217c792d
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  OTPFieldView: 700a752fe62c41d1c4914c78aa500fb30d97c255
+  ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+
+PODFILE CHECKSUM: 58a6050ef5a357f7f050d3dd7b630b552c473b82
+
+COCOAPODS: 1.8.4
